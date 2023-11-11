@@ -7,12 +7,19 @@ function typeWriter() {
     if (i < txt.length) {
       if (txt.charAt(i) === " ") {
         setTimeout(() => {
-          document.getElementById("highlight").innerHTML = "";
+          const element = document.getElementById("highlight");
+      if (element) {
+      element.innerHTML = "";
+      }
           i++;
           typeWriter(); // Call typeWriter immediately after setting the space
         }, 2500); // Pause for 3 seconds for space
       } else {
-        document.getElementById("highlight").innerHTML += txt.charAt(i);
+        
+        const element = document.getElementById("highlight");
+if (element) {
+  element.innerHTML += txt.charAt(i);
+}
         i++;
         setTimeout(typeWriter, 50); // Continue with 150 milliseconds for other characters
       }
