@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import profile from "../assets/Images/1000_F_605374009_hEUHatmKPzuHTIacg7rLneAgnLHUgegM.jpg" 
 
 var i=0;
 var txt:string ="Developer  Student  Programmer "
@@ -9,11 +10,11 @@ function typeWriter() {
           document.getElementById("highlight").innerHTML = "";
           i++;
           typeWriter(); // Call typeWriter immediately after setting the space
-        }, 3000); // Pause for 3 seconds for space
+        }, 2500); // Pause for 3 seconds for space
       } else {
         document.getElementById("highlight").innerHTML += txt.charAt(i);
         i++;
-        setTimeout(typeWriter, 70); // Continue with 150 milliseconds for other characters
+        setTimeout(typeWriter, 50); // Continue with 150 milliseconds for other characters
       }
     } else {
       // Reset for continuous loop
@@ -37,11 +38,19 @@ export function Mainbody(){
 
     return(
         <main>
+          <div className="topmain">
             <div className="Maincontent">
             <h1 id="h11">Hi I'm Anjesh </h1>
-            <h2 id="h22">I'm <span id="highlight"></span></h2>
-
+            <h1 id="h12">I'm <span id="highlight"></span></h1>
+            <h1 id="h13">Who helps your </h1>
+            <h1 id="h14">Bussiness Grow</h1>
             </div>
+            <img src={profile} id="avatar"/>
+          </div>
+          <div className="bottom_main">
+            <button id="my_work">See my Work</button>
+            <button id="start">Start Project</button>
+          </div>
         </main>
     )
 

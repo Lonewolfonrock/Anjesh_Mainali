@@ -1,15 +1,161 @@
 .Maincontent{
     font-family: 'Poppins', sans-serif;
 }
-#h11{
-    font-size: 40px;
+#h11,#h13{
+    font-size: 60px;
+    color: #130f49;
 }
 
-#h22{
-    font-size: 30px;
+#h12{
+    font-size: 50px;
+    color: #130f49;
 }
-
-#highlight{
-    
+#h14{
+    font-size: 50px;
     color: #34a1cd;
+}
+#highlight{
+    color: #34a1cd;
+}
+.topmain{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.Maincontent{
+    margin-top: 80px;
+    margin-right: 150px; 
+}
+#avatar{
+    width: 450px;
+    height: 450px;
+    border-radius: 360px;
+    border: 2px solid black;
+    box-shadow: 10px 10px black;
+}
+.bottom_main {
+    margin-left: 320px;
+}
+
+#my_work, #start {
+    width: 170px;
+    height: 55px;
+    margin: 10px 5px;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: inline-block; /* Add this line to ensure they are on the same line */
+}
+
+#my_work {
+    background-color: #130f49;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    border: none;
+}
+
+#start {
+    
+    color: white;
+    font-family: 'Karla', sans-serif; /* You can remove this line if it's the same as #my_work */
+    border: none;
+    background-color: #34a1cd;
+}
+
+#start:hover{
+    animation: gooUpmain 0.5s ease-in-out;
+}
+#my_work:hover{
+    animation: gooUpmain 0.5s ease-in-out;
+}
+
+
+@keyframes gooUpmain {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 700px) {
+    .Maincontent {
+        margin-top: 20px;
+        margin-right: 10px; /* Further adjust margin for smaller screens */
+    }
+
+    #h11, #h13 {
+        font-size: 25px; /* Further adjust font size for smaller screens */
+    }
+
+    #h12, #h14 {
+        font-size: 20px; /* Further adjust font size for smaller screens */
+    }
+
+    #avatar {
+        width: 150px; /* Further adjust avatar size for smaller screens */
+        height: 150px; /* Further adjust avatar size for smaller screens */
+        box-shadow: 2px 2px black; /* Further adjust box shadow for smaller screens */
+    }
+
+    .topmain {
+        margin-top: 50px; /* Further adjust margin for smaller screens */
+    }
+
+    .bottom_main {
+        margin-left: 0px /* Further adjust margin for smaller screens */
+    }
+
+    #my_work, #start {
+        
+        width: 100px; /* Further adjust button size for smaller screens */
+        height: 35px; /* Further adjust button size for smaller screens */
+        font-size: 12px; /* Further adjust font size for smaller screens */
+    }
+    #avatar{
+        margin-top: 30px;
+    }
+}
+@media (min-width: 701px) and (max-width: 1100px) {
+    .Maincontent {
+        margin-top: 80px;
+        margin-right: 10px;
+    }
+
+    #h11, #h13 {
+        font-size: 50px;
+    }
+
+    #h12, #h14 {
+        font-size: 45px;
+    }
+
+    #avatar {
+        width: 350px;
+        height: 350px;
+        box-shadow: 2px 2px black;
+    }
+
+    .topmain {
+        margin-top: 30px;
+        
+    }
+
+    .bottom_main {
+        margin-left: 120px
+    }
+
+    #my_work, #start {
+        width: 150px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    #avatar {
+        margin-top: 30px;
+    }
 }
