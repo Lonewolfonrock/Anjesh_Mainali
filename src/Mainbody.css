@@ -1,6 +1,6 @@
 
 
-.Maincontent{
+.Maincontent,#Skills{
     font-family: 'Poppins', sans-serif;
 }
 #h11,#h13{
@@ -25,7 +25,7 @@
     justify-content: center;
 }
 .Maincontent{
-    margin-top: 80px;
+    margin-top: 40px;
     margin-right: 150px; 
 }
 #avatar{
@@ -37,6 +37,7 @@
 }
 .bottom_main {
     margin-left: 320px;
+    margin-bottom: 300px;
 }
 
 #my_work, #start {
@@ -83,35 +84,95 @@
         transform: translateY(0);
     }
 }
+#skilltext{
+   
+    margin-bottom: 20px;
+}
+.skils{
+    margin-top: 100px;
+    text-align: center;
+    background-color: #FAEBD7;
+    
+}
+.skils h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #130f49;
+}
+#skillset,#skillset2,#skillset3,#skillset4{
+    
+    display: flex;
+    margin-bottom: 10px; 
+}
+.maincombo{
+    margin: auto 10%;
+}
+.combo1,.combo2{
+    display: flex;
+    
+}
+#skillset2{
+    margin-left: 150px;
+}
+#skillset4{
+    margin-left: 450px;
+}
+
+#skillset>h2,#Framwork,#Databases,#Others{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 35px;
+    margin-left: 0px;
+    margin-right: 10px;
+    
+}
+
+.languages,.framework,.database,.others{
+    margin: 0px 30px;
+    font-size: 20px;   
+}
+#Others{
+    margin-right: 70px;
+}
+.others{
+    margin: 0px 45px;
+    margin-bottom: 20px;
+}
+.language-inner,.framework-inner,.database-inner,.others-inner{
+    font-family: 'Karla', sans-serif;
+    display: block;
+    align-items: center; 
+}
+
 
 @media (max-width: 700px) {
     .Maincontent {
         width: 180px;
         margin-left: 10px;
         margin-top: 40px;
-        margin-right: 0px; /* Further adjust margin for smaller screens */
+        margin-right: 0px; 
     }
 
     #h11, #h13 {
-        font-size: 20px; /* Further adjust font size for smaller screens */
+        font-size: 20px;
     }
 
     #h12, #h14 {
-        font-size: 18px; /* Further adjust font size for smaller screens */
+        font-size: 18px; 
     }
 
     #avatar {
-        width: 150px; /* Further adjust avatar size for smaller screens */
-        height: 150px; /* Further adjust avatar size for smaller screens */
-        box-shadow: 2px 2px black; /* Further adjust box shadow for smaller screens */
+        width: 150px; 
+        height: 150px; 
+        box-shadow: 2px 2px black; 
     }
 
     .topmain {
-        margin-top: 0px; /* Further adjust margin for smaller screens */
+        margin-top: 0px; 
     }
 
     .bottom_main {
-        margin-left:6%/* Further adjust margin for smaller screens */
+        margin-left:6%
     }
 
     #my_work, #start {
@@ -125,6 +186,49 @@
         width: 150px;
         height: 150px;
     }
+    .skils{
+        margin-top: 50px;     
+    }
+    .skils h2{
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        color: #130f49;
+    }
+    #skillset,#skillset2,#skillset3,#skillset4{
+    
+        display: flex;
+        margin-bottom: 10px; 
+    }
+    .combo1,.combo2{
+        display: inline;
+    }
+    #skillset2{
+        margin-left: 0px;
+    }
+    #skillset4{
+        margin-left: 0px;
+    }
+    #skillset>h2,#Framwork,#Databases,#Others{
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 15px;
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    .languages,.framework,.database,.others{
+        margin: 0px 10px;
+        font-size: 10px;   
+    }
+    #Others{
+        margin-right: 35px;
+    }
+    .others{
+        margin: 0px 20px;
+       
+    }
+
+   
+    
 }
 @media (min-width: 701px) and (max-width: 1100px) {
     .Maincontent {
@@ -165,4 +269,5 @@
     #avatar {
         margin-top: 30px;
     }
+    
 }

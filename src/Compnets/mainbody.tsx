@@ -1,6 +1,18 @@
 import { useEffect } from "react";
 import profile from "../assets/Images/1000_F_605374009_hEUHatmKPzuHTIacg7rLneAgnLHUgegM.jpg" 
 
+
+
+import language from "../Data/language";
+import Language from "./Language";
+import Framework from "./Framework";
+import framworksdata from "../Data/framworksdata";
+import Database from "../Data/Database";
+import Databases from "./Databases";
+import Others from "./others";
+import othersData from "../Data/othersData";
+
+
 var i=0;
 var txt:string ="Developer  Student  Programmer "
 function typeWriter() {
@@ -33,9 +45,55 @@ if (element) {
     }
   }
 
+  const main=language.map((items)=>{
+    return (
+      <Language 
+      id={items.id}
+      icon={items.icon}
+      title={items.title}
+      content={items.content}
+      style={items.style}
 
-    
-    
+      />
+    )
+  })
+
+  const framework = framworksdata.map((items)=>{
+    return(
+      <Framework 
+      id={items.id}
+      icon={items.icon}
+      title={items.title}
+      content={items.content}
+      style={items.style}
+      />
+    )
+  })
+  
+  const database = Database.map((items)=>{
+    return(
+      <Databases
+      id={items.id}
+      icon={items.icon}
+      title={items.title}
+      content={items.content}
+      style={items.style}
+      />
+    )
+  })
+
+  const others = othersData.map((items)=>{
+    return(
+      <Others
+      id={items.id}
+      icon={items.icon}
+      title={items.title}
+      content={items.content}
+      style={items.style}
+      />
+    )
+  })
+  
     
 
 export function Mainbody(){
@@ -44,6 +102,7 @@ export function Mainbody(){
     }, []);
 
     return(
+      <div>
         <main>
           <div className="topmain">
             <div className="Maincontent">
@@ -59,6 +118,35 @@ export function Mainbody(){
             <button id="start">Start Project</button>
           </div>
         </main>
+        <div className="skils">
+        <h2 id="skilltext">Skills</h2>
+        <div className="maincombo">
+        <div className="combo1">
+          <div id="skillset">
+          <h2 id="programming">Languages</h2>
+          {main}
+          </div>
+          <div id='skillset2'>
+          <h2 id="Framwork">Framework</h2>
+          {framework}
+          </div>
+          </div>
+        <div className="combo2">
+          <div id="skillset3">
+          <h2 id="Databases">Databases</h2>
+          {database}
+          </div>
+          <div id="skillset4">
+          <h2 id="Others">Others</h2>
+          {others}
+          </div>
+          </div>
+          </div>
+        </div>
+
+        </div>
+
+       
     )
 
 
