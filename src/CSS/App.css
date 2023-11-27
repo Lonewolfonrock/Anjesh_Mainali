@@ -1,13 +1,11 @@
 *{
     margin: 0px;
     box-sizing: border-box;
-    
-    
 }
 
 .Mainheader{
     padding: 40px ;
-    margin-top: 20px;
+    margin-top: 0px;
     width: auto;
     background-color: antiquewhite;
     font-family: 'Karla', sans-serif;
@@ -63,25 +61,43 @@
         transform: translateY(0);
     }
 }
-@media (max-width: 600px) {
-    .Mainheader {
-        font-size: 14px; /* Further decrease font size for smaller screens */
-    }
-
-    #Contact {
-        padding: 8px; /* Adjust padding for smaller screens */
-    }
-
-    #Contact:hover {
-        padding: 8px; /* Adjust padding for smaller screens */
-    }
-    .Navbar li{
-        margin: 0px 5px;
+.innercontent{
+    margin-top: 200px;
+    text-align: center;
+}
+.skills {
+    display: flex;
+    justify-content: center;
+    overflow: hidden; /* Add this line to hide overflowing content */
     
+}
+.icons{
+    display: flex;
+}
+.images{
+    width: 120px;
+}
+.iconstack{
+    margin: 50px 50px 0px 0px;
+    
+}
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    60% {
+        transform: translateX(30%); /* Adjust to half the total width for a smooth transition */
     }
 }
 
+.icon-list {
+    display: flex;
+    animation: slide 30s infinite linear; /* Adjust the duration and timing function as needed */
+}
 
+.icons {
+    transition: transform 0.5s ease-in-out;
+}
 
 
 

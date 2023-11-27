@@ -1,0 +1,86 @@
+
+
+.Maincontent,#Skills{
+    font-family: 'Poppins', sans-serif;
+}
+#h11,#h13{
+    font-size: 60px;
+    color: #130f49;
+}
+
+#h12{
+    font-size: 50px;
+    color: #130f49;
+}
+#h14{
+    font-size: 50px;
+    color: #34a1cd;
+}
+#highlight{
+    color: #34a1cd;
+}
+.topmain{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.Maincontent{
+    margin-top: 40px;
+    margin-right: 150px; 
+}
+#avatar{
+    width: 450px;
+    height: 450px;
+    border-radius: 360px;
+    border: 2px solid black;
+    box-shadow: 10px 10px black;
+}
+.bottom_main {
+    margin-left: 300px;
+    margin-bottom: 100px;
+}
+
+#my_work, #start {
+    width: 170px;
+    height: 55px;
+    margin: 0px 5px;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: inline-block; /* Add this line to ensure they are on the same line */
+}
+
+#my_work {
+    background-color: #130f49;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    border: none;
+}
+
+#start {
+    
+    color: white;
+    font-family: 'Karla', sans-serif; /* You can remove this line if it's the same as #my_work */
+    border: none;
+    background-color: #34a1cd;
+}
+
+#start:hover{
+    animation: gooUpmain 0.5s ease-in-out;
+}
+#my_work:hover{
+    animation: gooUpmain 0.5s ease-in-out;
+}
+
+
+@keyframes gooUpmain {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
