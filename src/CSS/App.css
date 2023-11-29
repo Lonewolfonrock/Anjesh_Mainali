@@ -7,7 +7,7 @@
     padding: 40px ;
     margin-top: 0px;
     width: auto;
-    background-color: antiquewhite;
+    background-color: rgb(244, 244, 207);
     font-family: 'Karla', sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -64,21 +64,28 @@
 .innercontent{
     margin-top: 200px;
     text-align: center;
+    background-color: rgb(244, 244, 207);
+    
+}
+.innercontent h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #3d3c53;
 }
 .skills {
     display: flex;
     justify-content: center;
     overflow: hidden; /* Add this line to hide overflowing content */
-    
+    padding-bottom: 50px;
 }
 .icons{
     display: flex;
 }
 .images{
-    width: 120px;
+    width: 110px;
 }
 .iconstack{
-    margin: 50px 50px 0px 0px;
+    margin: 30px 50px 0px 0px;
     
 }
 @keyframes slide {
@@ -93,10 +100,50 @@
 .icon-list {
     display: flex;
     animation: slide 30s infinite linear; /* Adjust the duration and timing function as needed */
+    font-family: 'Karla', sans-serif;
+    font-size: 22px;
+    color: rgb(35, 35, 35);
+    
+    
 }
 
 .icons {
     transition: transform 0.5s ease-in-out;
+
+    
+}
+.projectframe{
+    background-color: #ffffff;
+    margin-top: 200px;
+}
+.project_heading{
+    margin-left: 8%;
+}
+.project_heading h3{
+    font-family: 'Karla', sans-serif;
+    color: #B4B2C5;
+    font-size: 23px;
+}
+.project_heading h1{
+    font-family: 'Poppins', sans-serif;
+    color: #130F49;
+    font-size: 60px;
+}
+.pcontent{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    
+    
+}
+.pcontent_item{
+    
+    width: 480px;
+    margin:10px;
 }
 
 

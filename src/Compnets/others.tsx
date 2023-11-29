@@ -17,7 +17,7 @@ export default function Others(props_o:others){
         </div>
     </div>
     )
-
 }
+
 
 

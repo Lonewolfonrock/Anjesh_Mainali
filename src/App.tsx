@@ -3,6 +3,7 @@ import './CSS/Mainbody.css'
 import {Header} from './Compnets/header'
 import { Mainbody } from './Compnets/mainbody'
 import {Skildata} from './Compnets/skills'
+import {Project} from './Compnets/projects'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Header/>
       <Mainbody/>
       <Skildata/>
+      <Project/>
     </>
   )
 }

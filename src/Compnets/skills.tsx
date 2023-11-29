@@ -34,7 +34,6 @@ export function Skildata(){
                 <ul className="iconstack"><img src={java} alt="" className="images" id="my"/><p>Java</p></ul>
                 <ul className="iconstack"><img src={git} alt="" className="images" id="my"/><p>Git</p></ul>
             </li>
-            
         </ul>
     </div>
     </div>
