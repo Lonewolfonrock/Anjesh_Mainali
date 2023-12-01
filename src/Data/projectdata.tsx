@@ -5,7 +5,6 @@ import bussinesscard from "../assets/Images/Screenshot (99).png"
 import todolist from "../assets/Images/Screenshot (101).png"
 import unit from "../assets/Images/Screenshot (102).png"
 import password from "../assets/Images/Screenshot (103).png"
-import Nepal from "../assets/Images/Screenshot (105).png"
 
 
 
