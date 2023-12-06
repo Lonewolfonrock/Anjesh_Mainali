@@ -1,0 +1,21 @@
+.blogmain{
+    margin-top: 200px;
+}
+#blog{
+    text-align: center;
+}
+.blog-img{
+    width:  470px;
+    height: 400px;
+}
+.blogitems{
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contentblog{
+    text-align: center;
+}
+.h2text{
+   
+}

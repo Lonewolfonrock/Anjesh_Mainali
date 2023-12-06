@@ -1,12 +1,12 @@
-import js from "../assets/Images/js.png"
-import py from "../assets/Images/python.png"
-import react from "../assets/Images/atom.png"
-import firebase from "../assets/Images/firebase.png"
-import typescript from "../assets/Images/typescript.png"
-import aws from "../assets/Images/aws.png"
-import mysql from "../assets/Images/mysql.png"
-import java from "../assets/Images/java.png"
-import git from "../assets/Images/git.png"
+import js from "../assets/Images/skillsimage/js.png"
+import py from "../assets/Images/skillsimage/python.png"
+import react from "../assets/Images/skillsimage/atom.png"
+import firebase from "../assets/Images/skillsimage/firebase.png"
+import typescript from "../assets/Images/skillsimage/typescript.png"
+import aws from "../assets/Images/skillsimage/aws.png"
+import mysql from "../assets/Images/skillsimage/mysql.png"
+import java from "../assets/Images/skillsimage/java.png"
+import git from "../assets/Images/skillsimage/git.png"
 export function Skildata(){
     return(
         <>
