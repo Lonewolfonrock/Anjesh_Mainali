@@ -11,7 +11,7 @@ export function Skildata(){
     return(
         <>
     <div className="innercontent">
-    <h1>Skills</h1>
+    <h1  id="skills">Skills</h1>
     <div className="skills">
         <ul className="icon-list">
             <li className="icons">

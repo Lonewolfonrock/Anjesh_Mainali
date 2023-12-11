@@ -1,6 +1,7 @@
 import './CSS/App.css'
 import './CSS/Mainbody.css'
 import './CSS/blogsection.css'
+import './CSS/nav.css'
 import {Header} from './Compnets/header'
 import { Mainbody } from './Compnets/mainbody'
 import {Skildata} from './Compnets/skills'
@@ -8,6 +9,7 @@ import Project from './Compnets/projects'
 import projectdata from './Data/projectdata'
 import blogdata from './Data/blogdata'
 import  Blog  from './Compnets/blog'
+import Contact from './Compnets/contact'
 
 function App() {
 
@@ -29,7 +31,7 @@ function App() {
       <Header/>
       <Mainbody/>
       <Skildata/>
-      <div className="projectframe">
+      <div className="projectframe" id='projectsec'> 
         <div className="project_heading">
         <h3>PORTFOLIO</h3>
         <h1>My Projects</h1>
@@ -47,6 +49,7 @@ function App() {
           {blogdatas}
         </div>
       </div>
+      <Contact/>
     </>
   )
 }

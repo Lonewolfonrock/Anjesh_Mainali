@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import profile from "../assets/Images/1000_F_605374009_hEUHatmKPzuHTIacg7rLneAgnLHUgegM.jpg" 
+import profile from "../assets/Images/IMG_20231207_173920-removebg.png" 
 
 
 
@@ -97,7 +97,7 @@ export function Mainbody(){
     return(
       <div>
         <main>
-          <div className="topmain">
+          <div className="topmain" id="topmain">
             <div className="Maincontent">
             <h1 id="h11">Hi I'm Anjesh </h1>
             <h1 id="h12">I'm <span id="highlight"></span></h1>

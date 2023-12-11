@@ -53,12 +53,5 @@ export default [
         linkwebsite:"https://gorgeous-hamster-136b64.netlify.app/",
         linkgithub:"https://github.com/Lonewolfonrock/Unit-converter"
     },
-    {
-        id:7,
-        title:"Password Generator",
-        Image:password,
-        linkwebsite:"https://peaceful-dolphin-aae8e4.netlify.app/",
-        linkgithub:"https://github.com/Lonewolfonrock/Password_Generator"
-    }
     
 ]

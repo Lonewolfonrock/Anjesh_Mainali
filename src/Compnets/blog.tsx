@@ -12,10 +12,12 @@ const Blog: React.FC<blogprops> = ({ images,title1,title2,date }) => {
     return(
        <>
             <div className="contentblog">
-                <img src={images} alt="" className="blog-img"/>
+                 <img src={images} alt="" className="blog-img"/>
                 <div className="h2text">
-                <h2>{title1}</h2>
-                <h2>{title2}</h2>
+                <h1>{title1}</h1>
+                <h1 className="highlight">{title2}</h1>
+                <p className="dateitem">{date}</p>
+
                 </div>
                 
             </div>

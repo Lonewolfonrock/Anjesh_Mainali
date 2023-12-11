@@ -3,19 +3,39 @@
 }
 #blog{
     text-align: center;
+    
 }
 .blog-img{
-    width:  470px;
-    height: 400px;
+    width:  450px;
+    height: 300px;
 }
 .blogitems{
-    margin-left: 50px;
+    margin-left: 100px;
     display: flex;
     flex-wrap: wrap;
+    
+    
 }
 .contentblog{
+    margin-top: 50px;
+    font-family: 'Karla', sans-serif;
+    font-size: 13px;
     text-align: center;
+    
 }
 .h2text{
-   
+    color: #130f49;
+    text-align: center;
+
+}
+.dateitem{
+    
+    text-align: center;
+    font-size: 15px;
+}
+.contentblog h1{
+    margin-bottom: 5px;
+}
+.highlight{
+    color: #34a1cd;
 }
