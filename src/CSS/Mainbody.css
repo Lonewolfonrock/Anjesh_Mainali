@@ -84,3 +84,20 @@
         transform: translateY(0);
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .topmain {
+        margin-top: 40px;
+    }
+
+    #avatar {
+        width: 150px;
+        height: 150px;
+    }
+
+    #my_work, #start {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
