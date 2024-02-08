@@ -1,3 +1,4 @@
+
 import { useEffect } from "react";
 import profile from "../assets/Images/IMG_20231207_173920-removebg.png" 
 
@@ -38,55 +39,7 @@ if (element) {
     }
   }
 
- /* const main=language.map((items)=>{
-    return (
-      <Language 
-      id={items.id}
-      icon={items.icon}
-      title={items.title}
-      content={items.content}
-      style={items.style}
 
-      />
-    )
-  })
-
-  const framework = framworksdata.map((items)=>{
-    return(
-      <Framework 
-      id={items.id}
-      icon={items.icon}
-      title={items.title}
-      content={items.content}
-      style={items.style}
-      />
-    )
-  })
-  
-  const database = Database.map((items)=>{
-    return(
-      <Databases
-      id={items.id}
-      icon={items.icon}
-      title={items.title}
-      content={items.content}
-      style={items.style}
-      />
-    )
-  })
-
-  const others = othersData.map((items)=>{
-    return(
-      <Others
-      id={items.id}
-      icon={items.icon}
-      title={items.title}
-      content={items.content}
-      style={items.style}
-      />
-    )
-  })
-  */
     
 
 export function Mainbody(){
@@ -116,3 +69,7 @@ export function Mainbody(){
 
 
 }
+setTimeout(() => {
+  alert("This website is not responsive for mobile application right now");
+
+}, 30000);

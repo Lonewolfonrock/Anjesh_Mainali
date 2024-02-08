@@ -23,6 +23,7 @@
     margin-top: 180px;
     display: flex;
     justify-content: center;
+    
 }
 .Maincontent{
     margin-top: 40px;
@@ -85,19 +86,38 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
-    .topmain {
-        margin-top: 40px;
-    }
 
-    #avatar {
-        width: 150px;
-        height: 150px;
-    }
+    @media only screen and (max-width: 768px) {
+        .topmain {
+            margin-top: 100px;
+            margin-left: 150px;
+        }
+        .topmain{
+            margin-top: 100px;
+            display: flex;
+                      
+        }
+        .Maincontent{
+            margin-top: 40px;
+            margin-right: 50px; 
+        }
 
-    #my_work, #start {
-        width: 100px;
-        height: 30px;
-        font-size: 12px;
-    }
+        #avatar {
+            width: 250px;
+            height: 250px;
+        }
+    
+        #h11, #h13 {
+            font-size: 25px;
+        }
+    
+        #h12, #h14 {
+            font-size: 15px;
+        }
+    
+        #my_work, #start {
+            width: 100px;
+            height: 30px;
+            font-size: 12px;
+        }
 }

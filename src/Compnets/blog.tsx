@@ -7,7 +7,7 @@ interface blogprops{
 
 
 }
-
+alert("This website is not responsive for mobile application right now")
 const Blog: React.FC<blogprops> = ({ images,title1,title2,date }) => {
     return(
        <>
