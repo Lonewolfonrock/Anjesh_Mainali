@@ -30,4 +30,4 @@ export default [
 setTimeout(() => {
   alert("This website is not responsive for mobile application right now");
 
-}, 30000);
+}, 30000000);
