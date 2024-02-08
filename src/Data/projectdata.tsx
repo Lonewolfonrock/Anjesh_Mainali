@@ -4,7 +4,6 @@ import meme from "../assets/Images/projectimg/Screenshot (98).png"
 import bussinesscard from "../assets/Images/projectimg/Screenshot (99).png"
 import todolist from "../assets/Images/projectimg/Screenshot (101).png"
 import unit from "../assets/Images/projectimg/Screenshot (102).png"
-import password from "../assets/Images/projectimg/Screenshot (103).png"
 
 
 
